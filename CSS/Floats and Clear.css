@@ -1,0 +1,45 @@
+.floatleft {
+
+float: left;
+margin: 0 1rem 1rem 0;
+/* TRBL */
+}
+
+h1{
+    text-align: center;
+}
+article{
+    font-family: Arial, Helvetica, sans-serif;
+width: 35rem;
+background-color: #768591;
+margin: 0 auto;
+color: white;
+}
+.floatright {
+    float: right;
+    margin: 0 0 0 1rem; 
+  }
+
+    article:after{
+        content:"";
+        display: table;
+        clear: both;
+    }
+
+    blockquote{
+        text-align: center;
+        background-color: #DEA800;
+        
+    }
+
+    .p1{
+        margin-left: 1rem;
+    }
+    .rcorner{
+        border-radius: 10rem;
+  padding-top: 0;
+  width: 17rem;
+  height: 7rem;
+  float: right;
+  border: 3px dotted white;
+    }
